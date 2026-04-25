@@ -3,7 +3,12 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+.env
+application-dev.properties
+application-prod.properties
+.idea/
+*.iml
+target/
 ### STS ###
 .apt_generated
 .classpath
