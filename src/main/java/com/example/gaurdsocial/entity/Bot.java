@@ -18,5 +18,5 @@ public class Bot {
     private Long autherId;
     private String username;
     private String persona_description;
-    private Boolean isUser=false;
+    private String authorType="bot";
 }

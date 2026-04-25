@@ -11,6 +11,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class UserResponseDto {
     private Long authorId;
-    private Boolean isUser = true;
+    private String authorType="user";
     private String username;
 }

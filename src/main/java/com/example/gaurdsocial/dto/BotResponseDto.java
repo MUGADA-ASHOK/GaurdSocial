@@ -8,7 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 public class BotResponseDto {
     private Long authorId;
-    private Boolean isUser = false;
+    private String authorType="bot";
     private String username;
     private String persona_description;
 }

@@ -11,6 +11,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class PostRequest {
     private Long authorId;
-    private Boolean isUser;
+    private String authorType;
     private String content;
 }

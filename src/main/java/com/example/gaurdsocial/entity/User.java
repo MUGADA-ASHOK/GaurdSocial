@@ -16,5 +16,5 @@ public class User {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long authorId;
     private String username;
-    private Boolean isUser = true;
+    private String authorType = "user";
 }
